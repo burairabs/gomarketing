@@ -62,6 +62,11 @@ marquee {
 	margin-bottom: 6rem;
 }
 
+.main-image {
+	width: 350px;
+	height: 80px;
+}
+
 .compliance p {
 	font-size: 17px;
 	color: #3c3950;
@@ -148,6 +153,7 @@ marquee {
 
 .learn-btn {
 	border: 1px solid #d40418 !important;
+	background-color: #fafafa;
 	margin: 8px;
 	padding: 0.5rem 2rem;
 	color: #000;
@@ -380,7 +386,8 @@ marquee {
 }
 
 .box h1 {
-	font-size: 15px;
+	margin-top: 2rem;
+	font-size: 20px;
 	color: #35343f;
 	font-family: 'Times New Roman', Times, serif;
 }
@@ -400,7 +407,9 @@ marquee {
 }
 
 .footer {
-	background-color: #e9dddd;
+	background-color: #eeeeee;
+	line-height: 1.3rem;
+	word-spacing: 1px;
 }
 
 .logo-container img {
@@ -436,16 +445,16 @@ marquee {
 .footer-content h1 {
 	font-size: 14px;
 	color: #080808;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400;
 	opacity: 0.7;
 }
 
 .footer-content p {
 	font-size: 12px;
 	color: #080808;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400;
 	opacity: 0.7;
 	width: 40%;
 }
@@ -455,8 +464,8 @@ marquee {
 	text-decoration: none;
 	font-size: 12px;
 	color: #080808;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400;
 	opacity: 0.7;
 }
 
@@ -465,8 +474,8 @@ marquee {
 	text-decoration: none;
 	font-size: 12px;
 	color: #080808;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400;
 }
 
 .footer-content div:nth-child(2) li {
@@ -487,18 +496,22 @@ marquee {
 	text-align: center;
 	font-size: 12px;
 	color: #080808;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	opacity: 0.6;
 	width: 80%;
-	font-weight: 800;
+	font-weight: 400;
 }
 
-.image-container {
-	width: 50%;
+.seo-image {
+	width: 700px;
+	height: 600px;
+}
+
+.content-image {
+	width: 700px;
 }
 
 .image {
-	width: 100%;
-	height: 100%;
+	width: 300px;
+	height: 200px;
 }
